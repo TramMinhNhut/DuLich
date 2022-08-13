@@ -1,0 +1,79 @@
+.footer {
+    position: absolute;
+    overflow: hidden;
+    bottom:0px;
+    width: 100%;
+}
+.footer .site-footer {
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    min-width: 767px;
+    background-color: #292F32;
+    position: relative;
+    color: #e2e2e2;
+   
+
+}
+.footer .site-footer:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    }
+
+.list-menu {
+    list-style-type: none !important;
+    color: aliceblue !important;
+    position: relative;
+    padding-left: 1px;
+
+}   
+
+.footer .site-footer .list-menu li a {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.footer .site-footer h3 {
+    position: relative;
+    font-size: 16px;
+    color: #e2e2e2;
+    text-transform: uppercase;
+}
+.footer .list-menu {
+    margin-bottom: 15px;
+    line-height: 2.1em;
+}
+.footer .copyright {
+    text-align: center;
+    color: #656565;
+    font-size: 1em;
+    position: relative;
+    padding: 10px 0;
+    background-color: #121212;
+}
+
+ .footer-widget-content {
+    position: relative;
+    font-size: 16px;
+    color: #e2e2e2;
+}
+
+.footer .back-to-top.show {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
