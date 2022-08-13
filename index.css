@@ -5,7 +5,7 @@
     width: 100%;
 }
 .footer .site-footer {
-    background-image: url(./img/footer.png);
+    background-image: url(./img/footer1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -61,19 +61,4 @@
     position: relative;
     font-size: 16px;
     color: #e2e2e2;
-}
-
-.footer .back-to-top.show {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    z-index: 999;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
 }
