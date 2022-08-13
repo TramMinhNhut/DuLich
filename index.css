@@ -146,4 +146,19 @@ a{
 .content_day_blog{
   font-size: 13px;
 }
-
+.tl-1 {
+  width: 80px;
+  height: 1px;
+  display: inline-block;
+  background: #eee;
+}
+.tl-2 {
+  display: inline-block;
+  height: 12px;
+  margin: 0 5px;
+  position: relative;
+  top: 5px;
+  width: 12px;
+  border: 1px solid #1ba0e2;
+  border-radius: 50px;
+}
